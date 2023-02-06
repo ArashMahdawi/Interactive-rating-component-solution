@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="https://fonts.google.com/specimen/Overpass">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+
+  <!-- Radio Button Module -->
+
+        <button class="button-star"><span>&#11089;</span></button>
+
+        <h1 id="how">How did we do?</h1>
+        <p id="letusknow">Please let us know how we did with your support request. All feedback is appreciated
+        to help us improve our offering!</p>
+
+
+        <div class="rb">
+          <div class="rb-tab" data-value="1">
+            <div class="rb-spot">
+              <span class="rb-txt">1</span>
+            </div>
+          </div><div class="rb-tab" data-value="2">
+            <div class="rb-spot">
+              <span class="rb-txt">2</span>
+            </div>
+          </div><div class="rb-tab" data-value="3">
+            <div class="rb-spot">
+              <span class="rb-txt">3</span>
+            </div>
+          </div><div class="rb-tab" data-value="4">
+            <div class="rb-spot">
+              <span class="rb-txt">4</span>
+            </div>
+          </div><div class="rb-tab" data-value="5">
+            <div class="rb-spot">
+              <span class="rb-txt">5</span>
+
+            </div>
+            </div>
+
+            <button class="button-submit">S U B M I T</button>
+
+
+</div>
+  </div>
+
+<div class="container2" style="display:none;">
+
+  <img src="images/illustration-thank-you.svg" alt="" class="thx-img">
+
+  <div class="rating-txt">
+
+
+  <span id="your-rating">You selected 4 out of 5</span>
+  </div>
+
+  <h1 class="thanks">Thank you!</h1>
+  <p id="appreciate">We appreciate you taking the time to give a rating. If you ever need more support,
+  don’t hesitate to get in touch!</p>
+
+
+</div>
+</div>
+
+<div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Arash Mahdawi-Nader</a>.
+  </div>
+
+<script type="text/javascript" src="index.js">
+
+</script>
+
+</body>
+</html>
